@@ -2,7 +2,11 @@
 <head>
 	<meta charset="utf-8"/>
 	<meta name="viewport" content ="width=device-width, initial-scale=1">
-	<title>mini spotify player</title>	
+	<link rel="icon" type="image/png" href="img/initial_favicon2.png" sizes="16x16" />
+	<title>mini spotify player</title>
+	<meta name="description" content="Rachel Mahan spotify player">
+    <meta name="author" content="Rachel Mahan">	
+    <meta name="keywords" content="Rachel Mahan web developer">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
@@ -14,24 +18,18 @@
 		
 		<div class="widget">
 			<div class="header">
-			<!-- Try adding/removing these classes: -->
-			<!-- disabled -->
-			<!-- playing -->
-			<div class="btn-play disabled"></div>
-
-			<div class="metadata">
-			  <p class="title js_title">Hunger of The Pine</p>
-			  <p class="author js_name">alt-J</p>
-
-			  <div class="seekbar">
-			    <progress value="5" max="30"></progress>
-			  </div>
-			</div>
+				<div class="btn-play disabled"></div>
+				<div class="metadata">
+				  <p class="title js_title">Hunger of The Pine</p>
+				  <p class="author js_name">alt-J</p>
+				  <div class="seekbar">
+				    <progress value="5" max="30"></progress>
+				  </div>
+				</div>
 			</div>
 			<div class="cover js_image">
-			<img src="https://i.scdn.co/image/04da6dfc1f5f45fdeba938a0cc71cf372524fd43">
+				<img src="https://i.scdn.co/image/04da6dfc1f5f45fdeba938a0cc71cf372524fd43" alt="rotating spotify album art">
 			</div>
-
 			<audio class="js_player" src="https://p.scdn.co/mp3-preview/8e9c5ffdc38e91659bfe8b6bd44650dfc25a3d31"></audio>
 		</div>
 
@@ -48,7 +46,5 @@
 	</div>  <!-- end container -->
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
 	<script src="app.js"></script>
-	<!-- this is a test -->
-
 </body>
 </html>
