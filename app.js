@@ -23,7 +23,7 @@ $(document).ready(function(){
 	$('.js_player').on('timeupdate', printTime);
 });
 
-//________________FETCH SONG ___________________________________________________________________
+//________________FETCH SONG _____________________________________________________________________
 
 function fetchSongInfo (event) {
   event.preventDefault();
